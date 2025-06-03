@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Fuente1';
+    src: url('/Fuentes/helveticaND.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Fuente2';
+    src: url('/Fuentes/NunitoSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  body {
+    font-family: 'Fuente2';
+    font-size: 15px;;
+    
+  }
+  
+  h1, h2, h3, h4 {
+    font-family: 'Fuente1', sans-serif;
+    color: rgb(255, 255, 255);
+    opacity: 75%;
+  }
+
+  p {
+    font-family: 'Fuente2';
+    font-size: 15px;
+    color: white;
+    opacity: 70%;
+  }
+
+
+

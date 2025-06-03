@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #202020;
+    margin-right: 15%;
+    margin-left: 15%;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #191919;
+    padding: 1.5px 1px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  #btn-menu {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25px;
+    height: 20px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    position: 0;
+    left: 1rem;
+    top: 1rem;
+    z-index: 1100;
+  }
+  
+  #btn-menu span {
+    display: block;
+    height: 1px;
+    background: white;
+    border-radius: 1px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+  }
+  
+  nav ul li a {
+    color: white;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 5px 8px;
+    transition: background-color 0.3s ease;
+    border-radius: 8px;
+  }
+
+  .main {
+        margin-top: 100px !important; /* o 70px si quieres justo debajo del header */
+        display:block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+  
+  nav ul li a:hover {
+    background-color: #2d2d2d;
+  }
+
+  .imgperfil {
+    max-width: 200px;
+    border-radius: 50%;
+    padding: 20px;
+  }
+
+  .boton1 {
+    padding: 8px 20px;
+    font-family: Fuente2;
+    font-size: 15px;
+    border-radius: 25px;
+    border: none;
+  }
+  .boton2 {
+    padding: 8px 20px;
+    font-family: Fuente2;
+    color: white;
+    background-color: #202020;
+    font-size: 15px;
+    border-radius: 25px;
+    border-color: white;
+    margin-left: 10px;;
+  }
+    
+  @media (max-width: 768px) {
+    header {
+      justify-content: flex-start;
+      padding-left: 30px ;
+    }
+  
+    #btn-menu {
+      display: flex;
+    }
+  
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 250px;
+      background-color: #222;
+      transform: translateX(-100%);
+      transition: transform 0.3s ease;
+      padding-top: 75px;
+      z-index: 1050;
+    }
+  
+    nav.open {
+      transform: translateX(0);
+    }
+  
+    nav ul {
+      flex-direction: column;
+      gap: 0px;
+      padding-left: 25px;
+    }
+  
+    nav ul li a {
+      display: block;
+      padding: 20px 10px;
+    }
+
+    li {
+        margin-top: 0px;
+    }
+
+    
+
+  }
+
+  
