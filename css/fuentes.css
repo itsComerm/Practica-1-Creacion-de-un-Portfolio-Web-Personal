@@ -20,14 +20,12 @@
   
   h1, h2, h3, h4 {
     font-family: 'Fuente1', sans-serif;
-    color: rgb(255, 255, 255);
     opacity: 75%;
   }
 
   p {
     font-family: 'Fuente2';
     font-size: 15px;
-    color: white;
     opacity: 70%;
   }
 

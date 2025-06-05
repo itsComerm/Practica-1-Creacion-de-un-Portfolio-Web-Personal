@@ -6,8 +6,20 @@
   
   body {
     background-color: #202020;
-    margin-right: 15%;
-    margin-left: 15%;
+  }
+
+  .tituloPaginas {
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    opacity: 100% !important;
+  }
+  .titulocontenido {
+    text-align: left;
+    margin-bottom: 10px;
+    color: white;
+    margin-left: 10px;
+    
   }
   
   header {
@@ -68,6 +80,8 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+        max-width: 70%;
+        margin-left: 15%;
     }
   
   nav ul li a:hover {
@@ -106,6 +120,7 @@
   
     #btn-menu {
       display: flex;
+      margin-left: 85%;
     }
   
     nav {
@@ -138,6 +153,16 @@
 
     li {
         margin-top: 0px;
+    }
+
+    .main {
+        margin-top: 100px !important; /* o 70px si quieres justo debajo del header */
+        display:block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        max-width: 90%;
+        margin-left: 5%;
     }
 
     

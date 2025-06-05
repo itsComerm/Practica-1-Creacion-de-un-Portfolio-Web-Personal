@@ -1,0 +1,74 @@
+.experiencia-card {
+  background-color: #ffffff;
+  color: #000;
+  text-align: left;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.logocajacontenido {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-top: 5px;
+}
+
+.content {
+  flex: 1;
+}
+
+.puestoTrabajo {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.empresa-tipo {
+  font-weight: 500;
+  color: #444;
+  margin-bottom: 4px;
+}
+
+.duracion,
+.ubicacion-modalidad {
+  color: #777;
+  font-size: 0.9rem;
+  margin-bottom: 4px;
+}
+
+.descripcion {
+  margin-top: 10px;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .experiencia-card {
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .logocajacontenido {
+    margin: 0 auto 10px;
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .logocajacontenido {
+    margin: 0 0 0px 0; /* Quita el centrado */
+    display: block;
+    align-self: flex-start; /* Si aún no se alinea, esto lo fuerza */
+  }
+
+  .cajacontenido {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+    
+}
