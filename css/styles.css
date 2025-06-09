@@ -5,7 +5,7 @@
   }
   
   body {
-    background-color: #202020;
+    background-color: #f2f2f2;
   }
 
   .tituloPaginas {
@@ -17,7 +17,6 @@
   .titulocontenido {
     text-align: left;
     margin-bottom: 10px;
-    color: white;
     margin-left: 10px;
     
   }
