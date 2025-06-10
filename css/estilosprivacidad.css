@@ -1,0 +1,117 @@
+/* Estilos generales para el cuerpo del documento */
+        .bodypriv {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6; /* gray-100 de Tailwind */
+            color: #374151; /* gray-700 de Tailwind */
+            padding: 1rem; /* p-4 sm:p-6 md:p-8 de Tailwind */
+            line-height: 1.6;
+            margin-top: 50px;
+        }
+
+        /* Contenedor principal de la política de privacidad */
+        .contenedorpriv {
+            max-width: 960px; /* Ancho máximo similar a un 'lg' de Tailwind */
+            margin: 20px auto; /* Centrar el contenedor */
+            background-color: #ffffff; /* bg-white de Tailwind */
+            border-radius: 0.5rem; /* rounded-lg de Tailwind */
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* shadow-xl de Tailwind */
+            padding: 1.5rem 2rem; /* p-6 sm:p-8 md:p-10 lg:p-12 de Tailwind */
+        }
+
+        /* Estilo para el título principal H1 */
+        .h1priv {
+            font-size: 2.25rem; /* text-3xl sm:text-4xl de Tailwind */
+            font-weight: 800; /* font-extrabold de Tailwind */
+            text-align: center;
+            margin-bottom: 2rem; /* mb-8 de Tailwind */
+            padding-bottom: 1rem; /* pb-4 de Tailwind */
+            border-bottom: 3px solid #9ca3af; /* gray-400 de Tailwind */
+            color: #1f2937; /* gray-900 de Tailwind */
+        }
+
+        /* Estilo para los subtítulos H2 */
+        .h2priv {
+            font-size: 1.875rem; /* text-2xl sm:text-3xl de Tailwind */
+            font-weight: 700; /* font-bold de Tailwind */
+            margin-top: 2.5rem; /* mt-10 de Tailwind */
+            margin-bottom: 1.5rem; /* mb-6 de Tailwind */
+            padding-bottom: 0.5rem; /* pb-2 de Tailwind */
+            border-bottom: 2px solid #d1d5db; /* gray-300 de Tailwind */
+            color: #1f2937; /* gray-900 de Tailwind */
+        }
+
+        /* Estilo para los subtítulos H3 */
+        .h3priv {
+            font-size: 1.5rem; /* text-xl sm:text-2xl de Tailwind */
+            font-weight: 600; /* font-semibold de Tailwind */
+            margin-top: 1.5rem; /* mt-6 de Tailwind */
+            margin-bottom: 1rem; /* mb-4 de Tailwind */
+            color: #1f2937; /* gray-900 de Tailwind */
+        }
+
+        /* Estilo para párrafos */
+        .parrafopriv {
+            margin-bottom: 1.5rem; /* mb-6 de Tailwind */
+            line-height: 1.75; /* leading-relaxed de Tailwind */
+        }
+
+        /* Estilo para listas desordenadas (ul) */
+        .ulpriv {
+            list-style-type: disc;
+            margin-left: 1.5rem; /* ml-6 de Tailwind */
+            margin-bottom: 1rem; /* mb-4 de Tailwind */
+        }
+
+        /* Estilo para listas ordenadas (ol) */
+        .olpriv {
+            list-style-type: decimal;
+            margin-left: 1.5rem; /* ml-6 de Tailwind */
+            margin-bottom: 1.5rem; /* mb-6 de Tailwind */
+        }
+
+        /* Estilo específico para elementos de lista anidados con círculo */
+        .listpriv-circle {
+            list-style-type: circle;
+            margin-left: 1.5rem; /* ml-6 de Tailwind */
+            margin-top: 0.5rem; /* mt-2 de Tailwind */
+        }
+
+        /* Estilo para enlaces (a) */
+        .linkpriv {
+            color: #2563eb; /* blue-600 de Tailwind */
+            text-decoration: none;
+            transition: color 0.2s ease-in-out;
+        }
+
+        .linkpriv:hover {
+            text-decoration: underline;
+            color: #1d4ed8; /* blue-700 de Tailwind */
+        }
+
+        /* Estilo para la fecha de última actualización */
+        .last-updatedpriv {
+            font-size: 0.875rem; /* text-sm de Tailwind */
+            color: #6b7280; /* gray-500 de Tailwind */
+            text-align: center;
+            margin-bottom: 2rem; /* mb-8 de Tailwind */
+        }
+
+        /* Regla horizontal */
+        .hrpriv {
+            border: 0;
+            height: 1px;
+            background-color: #d1d5db; /* gray-300 de Tailwind */
+            margin: 2.5rem 0; /* my-10 de Tailwind */
+        }
+
+        /* Estilo para elementos de lista con margen inferior */
+        .lipriv-mb-2 {
+            margin-bottom: 0.5rem; /* mb-2 de Tailwind */
+        }
+
+        /* Estilo para texto centrado en el pie */
+        .footer-textpriv {
+            text-align: center;
+            margin-top: 2rem; /* mt-8 de Tailwind */
+            color: #4b5563; /* gray-600 de Tailwind */
+        }

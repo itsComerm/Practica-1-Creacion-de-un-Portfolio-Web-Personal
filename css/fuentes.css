@@ -21,6 +21,7 @@
   h1, h2, h3, h4 {
     font-family: 'Fuente1', sans-serif;
     opacity: 75%;
+    font-size: 30px;
   }
 
   p {

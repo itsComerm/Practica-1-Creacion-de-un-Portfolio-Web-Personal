@@ -8,6 +8,56 @@
     background-color: #f2f2f2;
   }
 
+  .imglenguajes {
+    height: 70px;
+    margin-right: 35px;
+    padding: 20px;
+    margin-top: 15px;
+  }
+
+  .imglenguajes:hover {
+    cursor: pointer;
+     transform: scale(1.2);
+  }
+
+  .lenguajesSection {
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 150px;
+    margin-top: 40px;
+    height: 150px;
+  }
+  
+  .botonesmain {
+    margin-bottom: 100px;
+  }
+
+  .elemain {
+    margin-bottom: 45px;
+  }
+
+  .botonera {
+    margin-left: 10%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    max-width: 80%;  
+}
+
+.contenidodestacado {
+    display: inline-block; 
+    padding: 8px 20px;
+    font-family: Fuente2;
+    color: white;
+    background-color: #191919;
+    border: 2px solid #191919;
+    font-size: 15px;
+    border-radius: 25px;
+    margin: 0 10px 15px 0; 
+    text-decoration: none;
+    
+}
+
   .tituloPaginas {
     text-align: center;
     margin-top: 100px;
@@ -97,19 +147,36 @@
     padding: 8px 20px;
     font-family: Fuente2;
     font-size: 15px;
+    text-decoration: none;
     border-radius: 25px;
-    border: none;
+    border: 2px solid #2d2d2d;
+    color: #191919;
+    font-weight: 500;
   }
+
+  .boton1:hover {
+    color: rgb(93, 20, 241);
+    font-weight: 600;
+  }
+
   .boton2 {
     padding: 8px 20px;
     font-family: Fuente2;
     color: white;
-    background-color: #202020;
+    background-color: #191919;
+    border: 2px solid #191919;
     font-size: 15px;
     border-radius: 25px;
-    border-color: white;
-    margin-left: 10px;;
+    margin-left: 10px;
+    text-decoration: none;
   }
+
+
+  .boton2:hover {
+    color: rgb(93, 20, 241);
+    font-weight: 600;
+  }
+    
     
   @media (max-width: 768px) {
     header {
