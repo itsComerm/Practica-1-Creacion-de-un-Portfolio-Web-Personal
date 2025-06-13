@@ -11,16 +11,16 @@
   margin-bottom: 20px;
 }
 
-h1 , h2 , h3{
-  color: #000 !important;
-}
-
 .logocajacontenido {
   width: 60px;
   height: 60px;
   object-fit: contain;
   margin-top: 5px;
   border-radius: 10px;
+}
+
+.formacionacad {
+  margin-bottom: 100px;
 }
 
 .content {

@@ -61,7 +61,7 @@
   .tituloPaginas {
     text-align: center;
     margin-top: 100px;
-    color: white;
+    color: rgb(0, 0, 0);
     opacity: 100% !important;
   }
   .titulocontenido {
@@ -124,7 +124,7 @@
   }
 
   .main {
-        margin-top: 100px !important; /* o 70px si quieres justo debajo del header */
+        margin-top: 40px !important; /* o 70px si quieres justo debajo del header */
         display:block;
         justify-content: center;
         align-items: center;
