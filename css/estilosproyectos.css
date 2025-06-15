@@ -1,6 +1,6 @@
 .contenidowork {
     margin: 100px;
-    height: 80vh;
+    height: 100%;
     border-radius: 20px;
     background-color: #ebebeb;
     padding: 12px 25px;
@@ -10,14 +10,13 @@
 }
 
 
-h1 {
+h2 {
     font-family: "Fuente1";
     font-size: 60px;
 }
 
 p {
     font-family: "Fuente2";
-    text-align: justify;
 }
 .tablecontent {
     display: flex;
@@ -28,6 +27,7 @@ p {
 .tablecontentitem1 {
     margin-right: 10%;
     width: 60%;
+    text-align: justify;
 }
 .tablecontentitem2 {
     width: 40%;
@@ -73,10 +73,10 @@ p {
         justify-content: center;
     }
 
+
     .fotointereses {
         width: 70%;
-        height: auto;
-        max-height: 100%;
-        border-radius: 20px;
+        object-fit: fill;
+        border-radius: 20px !important;
     }
 }
