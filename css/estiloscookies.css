@@ -1,0 +1,59 @@
+.botoncookies {
+    padding: 12px;
+    font-family: "Fuente2";
+    font-size: 14px;
+    border-radius: 7px;
+    border: none;
+    width: 120px;
+    cursor: pointer;
+
+    
+}
+
+.texto-banner {
+        color: rgb(255, 255, 255);
+        margin-right: 10%;
+        text-align: justify;
+    }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.cookie-banner {
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    background: #232323; 
+    color: white; 
+    padding: 1em; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    z-index: 1000;
+}
+
+@media (max-width:768px) {
+
+    .cookie-banner {
+        display: block;
+        height: fit-content;
+        max-height: 100%;
+        width: 100%;
+    }
+
+    .texto-banner {
+        color: rgb(255, 255, 255);
+        margin-top: 5px;
+        margin-right: 10%;
+        text-align: justify;
+    }
+    .botonescookies {
+        height: 30%;
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+}
